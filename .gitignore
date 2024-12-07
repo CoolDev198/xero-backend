@@ -1,0 +1,22 @@
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore hidden __pycache__ folders
+**/.___pycache__/
+
+# Ignore macOS system files
+.DS_Store
+._*
+
+# Ignore specific hidden files with '._' prefix
+._.git
+._.gitignore
+._Dockerfile
+._app
+._path
+._requirements.txt
+._tests
+
+# Ignore Python virtual environments
+venv/
